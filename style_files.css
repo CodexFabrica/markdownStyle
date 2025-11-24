@@ -1,0 +1,47 @@
+a[href$=".js"]::before {
+    content: "JS";
+    color: orange;
+    font-weight: bold;
+    font-size: 0.7em;
+    margin-right: 5px;
+}
+
+a[href$=".md"]::before {
+    content: "M↓";
+    color: #4a8eef;
+    font-weight: bold;
+    font-size: 0.7em;
+    margin-right: 5px;
+}
+
+a[href$=".py"]::before {
+    content: "PY";
+    color: green;
+    font-weight: bold;
+    font-size: 0.7em;
+    margin-right: 5px;
+}
+
+a[href$=".env"]::before {
+    content: ">_";
+    color: #4a8eef;
+    font-weight: bold;
+    font-size: 0.7em;
+    margin-right: 5px;
+}
+
+a[href$=".env.example"]::before {
+    content: ">_";
+    color: #4a8eef;
+    font-weight: bold;
+    font-size: 0.7em;
+    margin-right: 5px;
+}
+
+a[href$="/"]::before {
+    content: "📂";
+    color: #dcb67a;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-right: 5px;
+}
